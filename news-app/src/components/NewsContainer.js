@@ -3,18 +3,19 @@ import NewsCard from "./NewsCard";
 
 function NewsContainer({newsItems}){
     return(
-        <div className="News-container">
-            <ul>
-            {newsItems.map((newsItem)=>{
-                return(
-                    <NewsCard
-                    key={newsItem.id}
-                    news={newsItem}
-                    />
-                )
-            })}
-            </ul>
+        <div className="container">
+            <div className="row">
+                {newsItems.map((newsItem)=>{
+                    return(
+                        <NewsCard
+                        key={newsItem.id}
+                        news={newsItem}
+                        />
+                    )
+                })}
+            </div>
         </div>
+    
     )
 }
 

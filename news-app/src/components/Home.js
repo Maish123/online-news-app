@@ -20,9 +20,9 @@ useEffect(()=>{
 },[])
 
     return(
-        <div className="container">
+        <div>
             <p>Hi, welcome to E-NEWS. An online platform where we stay informed with news in technology and science.</p>
-            <div className="row row-cols-5">
+            <div>
             <NewsContainer newsItems={newsData}/>
             </div>
             <br/>

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.card{
+  display: table;
+  margin: 2rem auto;
+  box-shadow: 4px 4px 10px rgba(33, 33, 33, 0.2);
+  padding: 1 rem 2 rem;
 }
+
+.newsContainer{
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+

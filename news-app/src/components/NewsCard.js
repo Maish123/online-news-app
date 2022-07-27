@@ -11,14 +11,16 @@ function NewsCard({news}){
     }
 
     return(
-        <div className="card" style={{width: 18 + "rem"}}>
-            <img src={imageUrl} className="card-img-top" alt=" "/>
-            <div className="card-body">
-                 <h5 className="card-title"> By -{author}</h5>
-                 <p className="card-text">{title}</p>
-                 <Link to={'/news/'+ {id}} className="btn btn-success">More Info</Link>
-                 <button onClick={handleLike}></button>
-             </div>
+        <div className="col">
+            <div className="card" style={{width: 18 + "rem"}}>
+                <img src={imageUrl} className="card-img-top" alt=" "/>
+                <div className="card-body">
+                    <h5 className="card-title"> By -{author}</h5>
+                    <p className="card-text">{title}</p>
+                    <Link to={'/news/'+ {id}} className="btn btn-success">More Info</Link>
+                    <button className="btn btn-success" onClick={handleLike}></button>
+                </div>
+            </div>
         </div>
     )
 };
