@@ -6,6 +6,8 @@ import Info from './components/Info';
 import Search from './components/Search';
 import About from './components/About';
 
+
+
 function App() {
   return (
     <div>

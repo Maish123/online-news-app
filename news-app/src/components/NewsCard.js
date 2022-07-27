@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NewsCard({bookName, bookThumbnail, bookId}){
+function NewsCard({newsName, newsThumbnail, newsId}){
     return(
         <div className="card" style={{width: 18 + "rem"}}>
-            <img src={bookThumbnail} className="card-img-top" alt=" "/>
+            <img src={newsThumbnail} className="card-img-top" alt=" "/>
             <div className="card-body">
-                 <h5 className="card-title">{bookName}</h5>
+                 <h5 className="card-title">{newsName}</h5>
                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 <Link to={'/book/'+ {bookId}} className="btn btn-success">More Info</Link>
+                 <Link to={'/news/'+ {newsId}} className="btn btn-success">More Info</Link>
              </div>
         </div>
     )
