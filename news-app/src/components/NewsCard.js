@@ -18,7 +18,7 @@ function NewsCard({news}){
                     <h5 className="card-title"> By -{author}</h5>
                     <p className="card-text">{title}</p>
                     <Link to={'/news/'+ {id}} className="btn btn-success">More Info</Link>
-                    <button className="btn btn-success" onClick={handleLike}></button>
+                    <button className="like-button" onClick={handleLike}>Favourite</button>
                 </div>
             </div>
         </div>

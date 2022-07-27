@@ -50,6 +50,13 @@
   margin: 0 auto;
 }
 
+.like-button{
+float: right;
+color: white;
+background-color: green;
+border: none;
+}
+
 
 
 
