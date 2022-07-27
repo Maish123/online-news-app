@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import NewsCard from "./NewsCard";
+import NewsContainer from "./NewsContainer";
 
 const newsUrl= ("http://localhost:3000/information")
 
@@ -23,7 +23,7 @@ useEffect(()=>{
         <div className="container">
             <p>Hi, welcome to E-NEWS. An online platform where we stay informed with news in technology and science.</p>
             <div className="row row-cols-5">
-            <NewsCard className="col" newsItems={newsData}/>
+            <NewsContainer newsItems={newsData}/>
             </div>
             <br/>
         </div>

@@ -1,14 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NewsCard({newsName, newsThumbnail, newsId}){
+function NewsCard({news}){
+    const{author,content,imageUrl,title, id}= news
+
+    //function that handles the onclick function
+
+    function handleLike(){
+        
+    }
+
     return(
         <div className="card" style={{width: 18 + "rem"}}>
-            <img src={newsThumbnail} className="card-img-top" alt=" "/>
+            <img src={imageUrl} className="card-img-top" alt=" "/>
             <div className="card-body">
-                 <h5 className="card-title">{newsName}</h5>
-                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 <Link to={'/news/'+ {newsId}} className="btn btn-success">More Info</Link>
+                 <h5 className="card-title"> By -{author}</h5>
+                 <p className="card-text">{title}</p>
+                 <Link to={'/news/'+ {id}} className="btn btn-success">More Info</Link>
+                 <button onClick={handleLike}></button>
              </div>
         </div>
     )

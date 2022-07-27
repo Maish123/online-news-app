@@ -1,9 +1,19 @@
 import React from "react";
+import NewsCard from "./NewsCard";
 
-function NewsContainer(){
+function NewsContainer({newsItems}){
     return(
-        <div>
-            {/* {render a list of news<NewsCard> items here} */}
+        <div className="News-container">
+            <ul>
+            {newsItems.map((newsItem)=>{
+                return(
+                    <NewsCard
+                    key={newsItem.id}
+                    news={newsItem}
+                    />
+                )
+            })}
+            </ul>
         </div>
     )
 }
