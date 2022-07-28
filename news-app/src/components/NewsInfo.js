@@ -1,36 +1,21 @@
-import React, {  useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const newsUrl= ("http://localhost:3000/information")
 
-function NewsInfo(){
+function NewsInfo({news}){
     //store the state of each element{key} in our object(title,content, author,image)
-    const[newsItems, setNewsItems]= useState([])
+    const{author,content,imageUrl,title, id}= news;
+
+    console.log(news);
     const[myTitle, setMyTitle]= useState("")
     const[myContent, setMyContent]= useState("")
     const[myaAuthor, setMyAuthor]= useState("")
     const[image, setImage]= useState("")
 
-    // set the state of the items
-    const fetchData=()=>{
-        fetch(newsUrl)
-            .then((resp)=> resp.json())
-            .then((data)=>{
-                setNewsItems(data)
-            })
-    }
-    useEffect(fetchData,[])
-    let news= newsItems;
-
-    const{author,content,imageUrl,title, id}= news;
-
-    useEffect(()=>{
-    setMyTitle(title)
-    setMyContent(content)
-    setMyAuthor(author)
-    setImage(imageUrl)
-    },[author, content,imageUrl, title])
-
-
+    setMyTitle(title);
+    setMyContent(content);
+    setMyAuthor(author);
+    setImage(imageUrl);
 
     return(
         <div>

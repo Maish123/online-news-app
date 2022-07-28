@@ -34,7 +34,7 @@ function addNewsToList(newNews){
         <Route exact path="/"><Home newsData={newsData}/></Route>
         <Route exact path="/addnews"><AddNews onAddNews={addNewsToList}/></Route>
         <Route exact path="/contactus"><ContactUs/></Route>
-        <Route exact path="/news/:id"><NewsInfo/></Route>
+        <Route exact path="/news/:id"><NewsInfo news={newsData}/></Route>
       </Switch>
     </div>
   );
