@@ -6,8 +6,10 @@ function NewsCard({news}){
 
     //function that handles the onclick function
 
-    function handleDelete(newNews){
-        
+    function handleDelete(){
+        fetch("http://localhost:3000/information",{
+            method: "DELETE",
+        })
     }
 
     return(
