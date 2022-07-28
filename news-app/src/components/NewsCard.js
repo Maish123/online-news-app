@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NewsCard({news}){
+function NewsCard({news,onDeletedPoem}){
     const{author,content,imageUrl,title, id}= news
 
     //function that handles the onclick function
 
     function handleDelete(){
-        fetch("http://localhost:3000/information",{
+        fetch(`http://localhost:3000/information/${id}`,{
             method: "DELETE",
         })
+        .then((resp)=>resp.json())
+        .then(()=>onDeletedPoem(poem))
     }
 
     return(
