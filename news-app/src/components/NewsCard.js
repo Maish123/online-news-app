@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NewsCard({news,onDeletedPoem}){
+function NewsCard({news,onDeleteItem}){
     const{author,content,imageUrl,title, id}= news
 
     //function that handles the onclick function
@@ -11,7 +11,7 @@ function NewsCard({news,onDeletedPoem}){
             method: "DELETE",
         })
         .then((resp)=>resp.json())
-        .then(()=>onDeletedPoem(poem))
+        .then(()=>onDeleteItem(news))
     }
 
     return(
