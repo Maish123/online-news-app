@@ -1,24 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import NewsContainer from "./NewsContainer";
 
-const newsUrl= ("http://localhost:3000/information")
 
-function Home(){
-
-// state for the mealcards
-    const[newsData, setNewsData]=useState([])
-
-//function that loads the items when the page loads
-
-useEffect(()=>{    
-    fetch(newsUrl)
-    .then((resp)=>resp.json())
-    .then((data)=>{
-        console.log(data)
-        setNewsData(data)
-    })
-},[])
-
+function Home({newsData}){
 
     return(
         <div className="bg-none">

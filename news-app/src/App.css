@@ -57,6 +57,17 @@ background-color: green;
 border: none;
 }
 
+.bookForm{
+  display: grid;
+  width: 400px;
+  border: solid black 4px;
+  border-radius: 20px;
+  margin: auto auto 40px;
+  padding: 20px;
+  background-color: rgb(144, 196, 164);
+  color: white;
+  align-content: center;
+}
 
 
 

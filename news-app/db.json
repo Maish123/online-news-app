@@ -1,88 +1,144 @@
 {
-    "information":[
-        {
-            "id": "1",
-            "author": "Hiral Goyal",
-            "content": "The personal data of 54 lakh Twitter users has been put on sale on a hacker forum for $30,000 (about ₹24 lakh). The database contains information on users, including celebrities and companies, the hacker claimed. The hacker said they used a vulnerability that allows anybody without authentication to obtain any Twitter ID by submitting a phone number or an email.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/25_mon/img_1658734016428_474.jpg?",
-            "title": "Twitter data of 54 lakh users, including celebs, put on sale for ₹24 lakh by hacker"
-          },
-          {
-            "id": "2",
-            "author": "Ashley Paul",
-            "content": "Google's former CEO Eric Schmidt said he had been \"very naive\" about the power of information in the early days of Google. Speaking at the Aspen Security Forum, Schmidt also expressed concern about the absence of a system for how artificial intelligence (AI) is developed or used. \"Government...should put more pressure...to get these things consistent with our values,\" Schmidt added.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/27_wed/img_1658915415393_978.jpg?",
-            "title": "I was very naive about the power of information: Former Google CEO"
-          },
-          {
-            "id": "3",
-            "author": "Ashley Paul",
-            "content": "A drone lifeguard service saved the life of a 14-year-old boy as he struggled against a powerful tide off a beach in Spain's Valencia, the drone's operators said. The drone dropped a life vest to help the boy stay afloat until a physical lifeguard team arrived. The boy was treated at a local hospital and was later sent home.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/25_mon/img_1658741015415_486.jpg?",
-            "title": "Drone lifeguard saves 14-year-old from drowning on a Spanish beach"
-          },
-          {
-            "id": "4",
-            "author": "Daisy Mowke",
-            "content": "Scientists have said part of James Webb Space Telescope, the world's most powerful telescope, suffered permanent damage due to a series of micrometeorite strikes. The micrometeoroid which hit a segment in the period May 22-24 caused significant uncorrectable change in the overall figure of that segment, said scientists. The telescope was built at a cost of $10 billion.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/19_tue/img_1658239533778_861.jpg?",
-            "title": "Part of world's most powerful telescope permanently damaged by space rock: Report"
-          },
-          {
-            "id": "5",
-            "author": "Anmol Sharma",
-            "content": "A new picture taken by the world's most powerful telescope, the James Webb Space Telescope, shows a purple galactic swirl in the universe. The image is of the centre of the spiral galaxy NGC 628. The image is a composite of three sets of data at different wavelengths taken by JWST’s mid-infrared instrument team.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/19_tue/img_1658243659402_637.jpg?",
-            "title": "New pic taken by world's most powerful telescope shows purple galactic swirl in universe"
-          },
-          {
-            "id": "6",
-            "author": "Anmol Sharma",
-            "content": "NASA's Perseverance rover spotted a string-like material that resembles a swirl of noodles. Sharing a picture, NASA said that the rover acquired the image of the area in front of it using its onboard Front Right Hazard Avoidance Camera A. The exact nature of the object is not known yet, with experts estimating that it could be debris.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/17_sun/img_1658079081651_999.jpg?",
-            "title": "Noodle-like object spotted on Mars, NASA releases pic"
-          },
-          {
-            "id": "7",
-            "author": "Hiral Goyal",
-            "content": "India will kick off its first-ever 5G spectrum auction today, with four players looking to bid on 72 GHz of spectrum worth ₹4.3 lakh crore. Reliance Jio, Bharti Airtel, Vodafone Idea and new entrant Adani Data Networks are set to participate in the auction. The auction will be held for spectrum in various low, mid and high frequency bands. ",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/26_tue/img_1658805902562_917.jpg?",
-            "title": "India's first-ever 5G spectrum auction begins today"
-          },
-          {
-            "id": "8",
-            "author": "Ankush Verma",
-            "content": "After Google Co-founder Sergey Brin's wife Nicole Shanahan's lawyer said that \"any suggestion that Nicole had an affair with Elon Musk is an outright lie\", the Tesla CEO mocked Wall Street Journal's Investigations Editor Michael Siconolfi. \"Sickonolfi has zero journalistic integrity,\" Musk tweeted. Shanahan's lawyer further said that the claim is also defamatory.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/27_wed/img_1658897620955_105.jpg?",
-            "title": "Elon Musk mocks journalist after Brin's wife's lawyer says 'Affair with Musk a lie'"
-          },
-          {
-            "id": "9",
-            "author": "Ashley Paul",
-            "content": "Shopify is laying off 10% of its workforce, the e-commerce company said on Tuesday as it struggles with sales growth due to a post-pandemic slowdown in online shopping. Shopify had placed its bets on a pandemic-driven boom in online shopping. \"It's now clear that the bet didn't pay off,\" CEO Tobias Lutke said. About 1,000 workers will reportedly be affected.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/26_tue/img_1658850658842_943.jpg?",
-            "title": "Shopify to lay off 10% of its workforce on slowing online orders"
-          },
-          {
-            "id": "10",
-            "author": "Hiral Goyal",
-            "content": "Twitter told the Karnataka High Court that it has received \"hundreds and thousands\" of orders from the government to block certain accounts. \"No intimation is given to the account holder that he has some objectionable tweet. Neither are we told anything,\" a lawyer appearing for Twitter said. \"If this [continues], Twitter’s entire business will come to an end,\" he added.   ",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/26_tue/img_1658824189259_187.jpg?",
-            "title": "Our business will end if we block users without giving reason: Twitter in HQ"
-          },
-          {
-            "id": "11",
-            "author": "Ashley Paul",
-            "content": "Russia's Federal Anti-Monopoly Service (FAS) fined Alphabet's Google two billion roubles ($34.2 million) on Tuesday for abusing its dominant position in the video hosting market, FAS said in a statement. Google must pay the fine within two months of it entering into force, FAS added. \"We'll study the text of the official decision to define our next steps,\" Google said.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/26_tue/img_1658842318146_712.jpg?",
-            "title": "Russia fines Google $34.2 million for breaching competition rules"
-          },
-          {
-            "id": "12",
-            "author": "Ashley Paul",
-            "content": "Twitter on Tuesday said it would hold a shareholder meeting on September 13 to vote on the social media company's proposed $44 billion buyout offer by Tesla CEO Elon Musk. Shareholders will be asked to vote on a proposal to approve compensation that may be payable by Twitter to certain executive officers in connection with the buyout, Twitter said.",
-            "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/27_wed/img_1658913926603_187.jpg?",
-            "title": "Twitter to hold shareholder vote on Musk's $44 bn-offer on Sept 13"
-          }
-    ]
+  "information": [
+    {
+      "id": "1",
+      "author": "Hiral Goyal",
+      "content": "The personal data of 54 lakh Twitter users has been put on sale on a hacker forum for $30,000 (about ₹24 lakh). The database contains information on users, including celebrities and companies, the hacker claimed. The hacker said they used a vulnerability that allows anybody without authentication to obtain any Twitter ID by submitting a phone number or an email.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/25_mon/img_1658734016428_474.jpg?",
+      "title": "Twitter data of 54 lakh users, including celebs, put on sale for ₹24 lakh by hacker"
+    },
+    {
+      "id": "2",
+      "author": "Ashley Paul",
+      "content": "Google's former CEO Eric Schmidt said he had been \"very naive\" about the power of information in the early days of Google. Speaking at the Aspen Security Forum, Schmidt also expressed concern about the absence of a system for how artificial intelligence (AI) is developed or used. \"Government...should put more pressure...to get these things consistent with our values,\" Schmidt added.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/27_wed/img_1658915415393_978.jpg?",
+      "title": "I was very naive about the power of information: Former Google CEO"
+    },
+    {
+      "id": "3",
+      "author": "Ashley Paul",
+      "content": "A drone lifeguard service saved the life of a 14-year-old boy as he struggled against a powerful tide off a beach in Spain's Valencia, the drone's operators said. The drone dropped a life vest to help the boy stay afloat until a physical lifeguard team arrived. The boy was treated at a local hospital and was later sent home.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/25_mon/img_1658741015415_486.jpg?",
+      "title": "Drone lifeguard saves 14-year-old from drowning on a Spanish beach"
+    },
+    {
+      "id": "4",
+      "author": "Daisy Mowke",
+      "content": "Scientists have said part of James Webb Space Telescope, the world's most powerful telescope, suffered permanent damage due to a series of micrometeorite strikes. The micrometeoroid which hit a segment in the period May 22-24 caused significant uncorrectable change in the overall figure of that segment, said scientists. The telescope was built at a cost of $10 billion.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/19_tue/img_1658239533778_861.jpg?",
+      "title": "Part of world's most powerful telescope permanently damaged by space rock: Report"
+    },
+    {
+      "id": "5",
+      "author": "Anmol Sharma",
+      "content": "A new picture taken by the world's most powerful telescope, the James Webb Space Telescope, shows a purple galactic swirl in the universe. The image is of the centre of the spiral galaxy NGC 628. The image is a composite of three sets of data at different wavelengths taken by JWST’s mid-infrared instrument team.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/19_tue/img_1658243659402_637.jpg?",
+      "title": "New pic taken by world's most powerful telescope shows purple galactic swirl in universe"
+    },
+    {
+      "id": "6",
+      "author": "Anmol Sharma",
+      "content": "NASA's Perseverance rover spotted a string-like material that resembles a swirl of noodles. Sharing a picture, NASA said that the rover acquired the image of the area in front of it using its onboard Front Right Hazard Avoidance Camera A. The exact nature of the object is not known yet, with experts estimating that it could be debris.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/17_sun/img_1658079081651_999.jpg?",
+      "title": "Noodle-like object spotted on Mars, NASA releases pic"
+    },
+    {
+      "id": "7",
+      "author": "Hiral Goyal",
+      "content": "India will kick off its first-ever 5G spectrum auction today, with four players looking to bid on 72 GHz of spectrum worth ₹4.3 lakh crore. Reliance Jio, Bharti Airtel, Vodafone Idea and new entrant Adani Data Networks are set to participate in the auction. The auction will be held for spectrum in various low, mid and high frequency bands. ",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/26_tue/img_1658805902562_917.jpg?",
+      "title": "India's first-ever 5G spectrum auction begins today"
+    },
+    {
+      "id": "8",
+      "author": "Ankush Verma",
+      "content": "After Google Co-founder Sergey Brin's wife Nicole Shanahan's lawyer said that \"any suggestion that Nicole had an affair with Elon Musk is an outright lie\", the Tesla CEO mocked Wall Street Journal's Investigations Editor Michael Siconolfi. \"Sickonolfi has zero journalistic integrity,\" Musk tweeted. Shanahan's lawyer further said that the claim is also defamatory.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/27_wed/img_1658897620955_105.jpg?",
+      "title": "Elon Musk mocks journalist after Brin's wife's lawyer says 'Affair with Musk a lie'"
+    },
+    {
+      "id": "9",
+      "author": "Ashley Paul",
+      "content": "Shopify is laying off 10% of its workforce, the e-commerce company said on Tuesday as it struggles with sales growth due to a post-pandemic slowdown in online shopping. Shopify had placed its bets on a pandemic-driven boom in online shopping. \"It's now clear that the bet didn't pay off,\" CEO Tobias Lutke said. About 1,000 workers will reportedly be affected.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/26_tue/img_1658850658842_943.jpg?",
+      "title": "Shopify to lay off 10% of its workforce on slowing online orders"
+    },
+    {
+      "id": "10",
+      "author": "Hiral Goyal",
+      "content": "Twitter told the Karnataka High Court that it has received \"hundreds and thousands\" of orders from the government to block certain accounts. \"No intimation is given to the account holder that he has some objectionable tweet. Neither are we told anything,\" a lawyer appearing for Twitter said. \"If this [continues], Twitter’s entire business will come to an end,\" he added.   ",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/26_tue/img_1658824189259_187.jpg?",
+      "title": "Our business will end if we block users without giving reason: Twitter in HQ"
+    },
+    {
+      "id": "11",
+      "author": "Ashley Paul",
+      "content": "Russia's Federal Anti-Monopoly Service (FAS) fined Alphabet's Google two billion roubles ($34.2 million) on Tuesday for abusing its dominant position in the video hosting market, FAS said in a statement. Google must pay the fine within two months of it entering into force, FAS added. \"We'll study the text of the official decision to define our next steps,\" Google said.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/26_tue/img_1658842318146_712.jpg?",
+      "title": "Russia fines Google $34.2 million for breaching competition rules"
+    },
+    {
+      "id": "12",
+      "author": "Ashley Paul",
+      "content": "Twitter on Tuesday said it would hold a shareholder meeting on September 13 to vote on the social media company's proposed $44 billion buyout offer by Tesla CEO Elon Musk. Shareholders will be asked to vote on a proposal to approve compensation that may be payable by Twitter to certain executive officers in connection with the buyout, Twitter said.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/27_wed/img_1658913926603_187.jpg?",
+      "title": "Twitter to hold shareholder vote on Musk's $44 bn-offer on Sept 13"
+    },
+    {
+      "formAuthor": "Ankush Verma",
+      "formContent": "The oldest patient yet has been cured of HIV after receiving a stem cell transplant for leukaemia, researchers reported on Wednesday. The 66-year-old, known as the \\\"City of Hope\\\" patient after the U.S. facility in Duarte, California, was diagnosed in 1988. The doctors had sought a donor who was naturally resistant to the virus that causes AIDS.\",       \"date\": \"28 Jul 2022,Thursday",
+      "formImageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/28_thu/img_1658994257911_359.jpg?",
+      "formTitle": "HIV cured in oldest patient yet after stem cell transplant",
+      "id": "U0FN8_7"
+    },
+    {
+      "formAuthor": "Ankush Verma",
+      "formContent": "The oldest patient yet has been cured of HIV after receiving a stem cell transplant for leukaemia, researchers reported on Wednesday. The 66-year-old, known as the \\\"City of Hope\\\" patient after the U.S. facility in Duarte, California, was diagnosed in 1988. The doctors had sought a donor who was naturally resistant to the virus that causes AIDS.\",       \"date\": \"28 Jul 2022,Thursday",
+      "formImageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/28_thu/img_1658994257911_359.jpg?",
+      "formTitle": "HIV cured in oldest patient yet after stem cell transplant",
+      "id": "5itaiqN"
+    },
+    {
+      "formAuthor": "Ankush Verma",
+      "formContent": "The oldest patient yet has been cured of HIV after receiving a stem cell transplant for leukaemia, researchers reported on Wednesday. The 66-year-old, known as the \\\"City of Hope\\\" patient after the U.S. facility in Duarte, California, was diagnosed in 1988. The doctors had sought a donor who was naturally resistant to the virus that causes AIDS.\",       \"date\": \"28 Jul 2022,Thursday",
+      "formImageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/28_thu/img_1658994257911_359.jpg?",
+      "formTitle": "HIV cured in oldest patient yet after stem cell transplant",
+      "id": "-F_uOhx"
+    },
+    {
+      "formAuthor": "Ankush Verma",
+      "formContent": "The oldest patient yet has been cured of HIV after receiving a stem cell transplant for leukaemia, researchers reported on Wednesday. The 66-year-old, known as the \\\"City of Hope\\\" patient after the U.S. facility in Duarte, California, was diagnosed in 1988. The doctors had sought a donor who was naturally resistant to the virus that causes AIDS.\",       \"date\": \"28 Jul 2022,Thursday",
+      "formImageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/28_thu/img_1658994257911_359.jpg?",
+      "formTitle": "HIV cured in oldest patient yet after stem cell transplant",
+      "id": "ZJJrism"
+    },
+    {
+      "formAuthor": "Ankush Verma",
+      "formContent": "The oldest patient yet has been cured of HIV after receiving a stem cell transplant for leukaemia, researchers reported on Wednesday. The 66-year-old, known as the \\\"City of Hope\\\" patient after the U.S. facility in Duarte, California, was diagnosed in 1988. The doctors had sought a donor who was naturally resistant to the virus that causes AIDS.\",       \"date\": \"28 Jul 2022,Thursday",
+      "formImageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/28_thu/img_1658994257911_359.jpg?",
+      "formTitle": "HIV cured in oldest patient yet after stem cell transplant",
+      "id": "i18MHup"
+    },
+    {
+      "formAuthor": "Ankush Verma",
+      "formContent": "The oldest patient yet has been cured of HIV after receiving a stem cell transplant for leukaemia, researchers reported on Wednesday. The 66-year-old, known as the \\\"City of Hope\\\" patient after the U.S. facility in Duarte, California, was diagnosed in 1988. The doctors had sought a donor who was naturally resistant to the virus that causes AIDS.\",       \"date\": \"28 Jul 2022,Thursday",
+      "formImageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/28_thu/img_1658994257911_359.jpg?",
+      "formTitle": "HIV cured in oldest patient yet after stem cell transplant",
+      "id": "egxmIi4"
+    },
+    {
+      "formAuthor": "deno",
+      "formContent": "JDXMo",
+      "formImageUrl": "jhgfdsduimnb",
+      "formTitle": "dede",
+      "id": "qeRNKie"
+    },
+    {
+      "author": "Deno",
+      "content": "Scientists have asked for public's help after discovering series of mysterious holes on the Atlantic Ocean floor. \\\"While they look almost human made, the little piles of sediment around the holes make them seem like they were excavated by...something. What's your hypothesis?\\\" the National Oceanic and Atmospheric Administration wrote while sharing pictures on Facebook.",
+      "imageUrl": "https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/07_jul/28_thu/img_1658979090931_463.jpg?",
+      "title": "inno",
+      "id": "0Nl9a2q"
+    }
+  ]
 }
