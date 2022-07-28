@@ -11,13 +11,10 @@ function NavBar(){
                        <Link to="/" className="nav-link">HOME</Link>
                    </li>
                    <li className="nav-item">
-                       <Link to="/about" className="nav-link">ABOUT</Link>
+                       <Link to="/contactUs" className="nav-link">CONTACT US</Link>
                    </li>
                    <li className="nav-item">
-                       <Link to="/info" className="nav-link">INFO</Link>
-                   </li>
-                   <li className="nav-item">
-                       <Link to="/search" className="nav-link">SEARCH</Link>
+                       <Link to="/addnews" className="nav-link">ADD NEWS</Link>
                    </li>
                </ul>
                </div>
