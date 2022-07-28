@@ -6,7 +6,7 @@ function NewsCard({news}){
 
     //function that handles the onclick function
 
-    function handleLike(){
+    function handleDelete(newNews){
         
     }
 
@@ -18,7 +18,7 @@ function NewsCard({news}){
                     <h5 className="card-title"> By -{author}</h5>
                     <p className="card-text">{title}</p>
                     <Link to={"/news/"+id} className="btn btn-success">More Info</Link>
-                    <button className="like-button" onClick={handleLike}>Favourite</button>
+                    <button className="like-button" onClick={handleDelete}>Delete</button>
                 </div>
             </div>
         </div>

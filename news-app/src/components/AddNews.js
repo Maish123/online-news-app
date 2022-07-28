@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 
-const newsUrl= ("http://localhost:3000/information")
 
 function AddNews({onAddNews}){
     //    const{author,content,imageUrl,title, id}= news
