@@ -69,6 +69,35 @@ border: none;
   align-content: center;
 }
 
+.buttons{
+display: flex;
+flex-direction: row;
+}
+
+.button{
+  padding: 20px, 50px;
+  font-size: 1rem;
+  margin: 10px;
+  position: relative;
+}
+
+.btn-1{
+  background:white;
+  color: green;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  transition: transform 0.3s ease;
+  margin-right: 20px;
+}
+
+.btn-2 {
+  background:white;
+  color: green;
+  border-radius: 10px;
+  border: 0.3px solid black;
+  margin-left: 60px;
+}
+
 
 
 

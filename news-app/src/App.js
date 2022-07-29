@@ -2,7 +2,6 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import { Route, Switch } from 'react-router-dom';
-import NewsInfo from './components/NewsInfo';
 import ContactUs from './components/ContactUs';
 import AddNews from './components/AddNews';
 import React, {useState, useEffect} from 'react';
@@ -39,7 +38,6 @@ function deleteNewsFromList(deletedNews){
         <Route exact path="/"><Home newsData={newsData} onDeletedItem={deleteNewsFromList}/></Route>
         <Route exact path="/addnews"><AddNews onAddNews={addNewsToList}/></Route>
         <Route exact path="/contactus"><ContactUs/></Route>
-        <Route exact path="/news/:id"><NewsInfo news={newsData}/></Route>
       </Switch>
     </div>
   );

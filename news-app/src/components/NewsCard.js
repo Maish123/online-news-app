@@ -1,17 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-function NewsCard({news,onDeleteItem}){
+function NewsCard({news,deletedItem}){
     const{author,content,imageUrl,title, id}= news
 
     //function that handles the onclick function
 
     function handleDelete(){
-        fetch(`http://localhost:3000/information/${id}`,{
+        console.log("I have been deleted")
+        fetch(`http://localhost:3000/information/${news.id}`,{
             method: "DELETE",
         })
         .then((resp)=>resp.json())
-        .then(()=>onDeleteItem(news))
+        .then(()=>deletedItem(news))
     }
 
     return(
@@ -21,8 +21,10 @@ function NewsCard({news,onDeleteItem}){
                 <div className="card-body">
                     <h5 className="card-title"> By -{author}</h5>
                     <p className="card-text">{title}</p>
-                    <Link to={"/news/"+id} className="btn btn-success">More Info</Link>
-                    <button className="like-button" onClick={handleDelete}>Delete</button>
+                    <div className="buttons">
+                        <button className="button btn-1">More Info</button>
+                        <button className="button btn-2" onClick={handleDelete}>Delete</button>
+                    </div>
                 </div>
             </div>
         </div>

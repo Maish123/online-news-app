@@ -51,7 +51,6 @@ function AddNews({onAddNews}){
                 <label>NEWS CONTENT</label>
                 <input
                 onChange={(e)=>setContent(e.target.value)}
-                id="newsContent"
                 type="text"
                 value={content}
                 placeholder="input news content"
@@ -59,11 +58,12 @@ function AddNews({onAddNews}){
                 <label>NEWS IMAGE</label>
                 <input
                 onChange={(e)=>setImageUrl(e.target.value)}
-                id="newsImage"
+                
                 type="text"
                 value={imageUrl}
                 placeholder="input image url"
                 />
+                <br/>
                 <input id="submit" type="submit" value="ADD NEWS ARTICLE"/>
             </form>
         </div>
