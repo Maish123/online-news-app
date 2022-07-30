@@ -71,7 +71,7 @@ border: none;
 
 .buttons{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 }
 
 .button{
@@ -88,15 +88,17 @@ flex-direction: row;
   border: 0.5px solid black;
   transition: transform 0.3s ease;
   margin-right: 20px;
+  box-shadow: 1px 1px 5px rgba(33, 33, 33, 0.2);
 }
 
-.btn-2 {
+/* .btn-2 {
   background:white;
   color: green;
   border-radius: 10px;
   border: 0.3px solid black;
   margin-left: 60px;
-}
+  box-shadow: 1px 1px 5px rgba(33, 33, 33, 0.2);
+} */
 
 
 
