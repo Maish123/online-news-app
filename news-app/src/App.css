@@ -99,6 +99,22 @@ flex-direction: column;
   margin-left: 60px;
   box-shadow: 1px 1px 5px rgba(33, 33, 33, 0.2);
 } */
+.contact-container {
+margin-left: auto;
+margin-right: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.hero {
+background-color: white;
+background-image: url(/background\ 6.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color:black;
+padding-top: 200px;
+padding-bottom: 200px;
+background-blend-mode: multiply;
+}
 
 
 

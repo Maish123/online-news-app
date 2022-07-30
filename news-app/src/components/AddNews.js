@@ -32,7 +32,7 @@ function AddNews({onAddNews}){
     }
     return(
         <div>
-            <h1>I am the Add news component</h1>
+            <h4>Feel free to update us with up to date information and news here</h4>
             <form className="bookForm" onSubmit={handlePoemSubmit}>
                 <label>NEWS TITLE</label>
                 <input
