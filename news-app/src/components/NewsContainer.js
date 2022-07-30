@@ -1,7 +1,7 @@
 import React from "react";
 import NewsCard from "./NewsCard";
 
-function NewsContainer({newsItems,deletedItem}){
+function NewsContainer({newsItems}){
     return(
         <div className="container">
             <div className="row">
@@ -10,7 +10,6 @@ function NewsContainer({newsItems,deletedItem}){
                         <NewsCard
                         key={newsItem.id}
                         news={newsItem}
-                        deletedItem={deletedItem}
                         />
                     )
                 })}

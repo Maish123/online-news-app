@@ -26,16 +26,11 @@ function addNewsToList(newNews){
   setNewsData([...newsData,newNews])
 }
 
-function deleteNewsFromList(deletedNews){
-  const updatedDeletedItem = newsData.filter((news)=>news.id !== deletedNews.id)
-  setNewsData(updatedDeletedItem)
-}
-
   return (
     <div>
       <NavBar/>
       <Switch>
-        <Route exact path="/"><Home newsData={newsData} onDeletedItem={deleteNewsFromList}/></Route>
+        <Route exact path="/"><Home newsData={newsData}/></Route>
         <Route exact path="/addnews"><AddNews onAddNews={addNewsToList}/></Route>
         <Route exact path="/contactus"><ContactUs/></Route>
       </Switch>
