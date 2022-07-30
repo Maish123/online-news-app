@@ -24,8 +24,18 @@ The project incorporates a RESTful API for the data being used
 2. run json-server --watch db.json initiate the json server
 3. npm start to launch the project in the browser
 
-## RESULTS
-![front-page-section]()
+## Getting started
+
+the server must run first locally on port 3000 then the app runs on a different port, 3001
+
+## Results
+![read-news-section](/Screenshot%20(16).png)
+
+![post-news-section](/Screenshot%20(17).png)
+
+## Benefits
+* Educating the clients and users of the app through up to date information from various fields across the world
+* Gives an opportunity for people to publish and post their nws or any relevant information. 
 
 ## Challenges 
 * Having to clearly and effectively express what is on paper on the site.
