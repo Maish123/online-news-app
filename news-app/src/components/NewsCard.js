@@ -5,16 +5,11 @@ function NewsCard({news}){
 
     const[contentVisible,setContentVisible]= useState(false)
 
-    //function that handles the onclick function
+    function handleShowContent(){
+        console.log("I have been clicked!! Display news content")
+        setContentVisible((contentVisible)=> !contentVisible)
+    }
 
-    // function handleDelete(){
-    //     console.log("I have been deleted")
-    //     fetch(`http://localhost:3000/information/${news.id}`,{
-    //         method: "DELETE",
-    //     })
-    //     .then((resp)=>resp.json())
-    //     .then(()=>deletedItem(news))
-    // }
 
     return(
         // className="col" to return it to three per row grid
@@ -25,10 +20,10 @@ function NewsCard({news}){
                     <h5 className="card-title"> By -{author}</h5>
                     <p className="card-text">{title}</p>
                     <div className="buttons">
-                        <button className="button btn-1">More Info</button>
+                        <button onClick={handleShowContent} className="button btn-1">More Info</button>
                         {/* <button className="button btn-2" onClick={handleDelete}>Delete</button> */}
                     </div>
-                        <div>hello!</div>
+                        <div>{contentVisible? content: null}</div>
                 </div>
             </div>
         </div>
